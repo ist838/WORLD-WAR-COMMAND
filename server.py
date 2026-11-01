@@ -702,5 +702,3 @@ async def api_info():
         "multiplayer": True,
         "max_players": MAX_PLAYERS
     }
-                        room["host"] = next(iter(room["players"]))
-                    await broadcast(code)
